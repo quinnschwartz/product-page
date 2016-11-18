@@ -20,10 +20,30 @@ h1 {
   border: solid 10px rgba(210, 29, 176, 1);
 }
 
+li {
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-top: 440px;
+}
+
 img {
   width: 175px;
   height: 150px;
   margin: 10px;
+  border: 5px solid green;
+  /*float: left;*/
+}
+
+#mainPhoto {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border: 5px solid red;
 }
 
 #photoGallery {
@@ -32,30 +52,30 @@ img {
 }
 
 #photoGallery img:hover {
-  outline: 5px solid red;
-  outline-offset: 10px;
+  border: none;
+  /*outline-offset: 10px;*/
 }
 
 .pedalName {
   position: absolute;
   z-index: 1;
-  top: 240px;
-  left: 120px;
+  top: 307px;
+  left: 170px;
   /*margin-left: auto;
   margin-right: auto;*/
-  text-align: center;
   color: black;
-  background-color: rgb(41, 231, 244);
-  width: 75px;
-  border-radius: 20px;
+  background-color: #bdc2c5;
+  width: 140px;
 }
 
-#photoGallery {
-  text-align: left;
-
+h2 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #008932;
 }
 
-#Column1 {
+#column1 {
   /*position: relative;
   width: 300px;
   display: block;
@@ -65,6 +85,7 @@ img {
   float: left;
   width: 50%;
   text-align: center;
+  clear: left;
 }
 
 #column2 {
@@ -78,9 +99,10 @@ img {
   margin-top: 60px;
   */
   float: right;
-  width: 45%;
+  width: 50%;
   font-size: 20px;
-  margin-left: 5%;
+  clear: right;
+  /*clear: both;*/
 }
 
 #nav li{
@@ -101,7 +123,7 @@ li {
   width: 100px;
 }
 
-#description {
+p {
   max-width: 300px;
   background-color: white;
   padding: 10px;
