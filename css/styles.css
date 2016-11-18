@@ -17,28 +17,62 @@ h1 {
   margin-right: auto;
   width: 150px;
   border-radius: 10px;
-  box-shadow: 20%;
+  border: solid 10px rgba(210, 29, 176, 1);
 }
 
 .pedalName {
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  z-index: 1;
+  top: 240px;
+  left: 120px;
+  /*margin-left: auto;
+  margin-right: auto;*/
   text-align: center;
-  color: white;
-  background-color: rgba(210, 29, 176, 1);
+  color: black;
+  background-color: rgb(41, 231, 244);
   width: 75px;
   border-radius: 20px;
 }
 
 #mainPhoto {
-  float: left;
+  position: relative;
   width: 300px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
+  float: left;
 }
 
 #description {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
   float: right;
+  margin-top: 60px;
+}
+
+#nav li{
+  display: inline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+#nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+#description {
   max-width: 300px;
   background-color: white;
   padding: 10px;
