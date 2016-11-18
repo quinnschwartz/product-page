@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/geometric2.jpg");
+}
+
+h1 {
+  /*position: absolute;*/
+  font-size: 60pt;
+  text-align: center;
+  color: black;
+  background-color: white;
+  /*display: block;*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: 20%;
+}
+
+.pedalName {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  background-color: rgba(210, 29, 176, 1);
+  width: 75px;
+  border-radius: 20px;
+}
+
+#mainPhoto {
+  float: left;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#description {
+  float: right;
+  max-width: 300px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
