@@ -38,6 +38,7 @@ h5 {
   color: white;
   font-size: 20px;
   margin-bottom: 15px;
+  margin-top: 70px;
 }
 
 input {
@@ -51,8 +52,8 @@ li {
 h3 {
   text-align: center;
   color: white;
-  font-size: 20px;
-  margin-top: 440px;
+  font-size: 30px;
+  margin-top: 490px;
 }
 
 img {
@@ -78,12 +79,6 @@ a {
   padding: 0;
 }*/
 
-#mainPhoto {
-  position: relative;
-  width: 300px;
-  height: 300px;
-  border: 5px solid green;
-}
 
 #photoGallery {
   margin-right: auto;
@@ -95,10 +90,17 @@ a {
   /*outline-offset: 10px;*/
 }
 
+.advertisement img {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border: 5px solid green;
+}
+
 .pedalName {
   position: absolute;
   z-index: 1;
-  top: 320px;
+  top: 240px;
   left: 170px;
   /*margin-left: auto;
   margin-right: auto;*/
