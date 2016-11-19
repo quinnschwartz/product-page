@@ -10,6 +10,16 @@ body {
   position: absolute;
 }*/
 
+p {
+  text-align: center;
+}
+
+p::first-Letter {
+  font-size: 200%;
+  text-transform: capitalize;
+  color: green;
+}
+
 h1 {
   /*position: absolute;*/
   font-size: 60pt;
