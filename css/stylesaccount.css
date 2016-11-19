@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+form {
+  background-color: #24313C;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  font-family: arial;
+}
+
+.form {
+  padding-top: 50px;
+  content: "";
+  display: block;
+  clear: both;
+}
+
+h1, input, button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-weight: lighter;
+}
+
+input {
+  background-color: #24313C;
+  padding: 4px 4px 4px 6px;
+  margin-bottom: 30px;
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  border: 2px solid #91989d;
+}
+
+#first-name, #last-name {
+  display: inline;
+  width: 190px;
+}
+
+#first-name {
+  margin-right: 9px;
+}
+
+#last-name {
+  margin-left: 9px;
+}
+
+.inline {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+
+
+button {
+  border-radius: 0%;
+  border: 0;
+  background-color: #1ab188;
+  color: white;
+  padding-right: 50px;
+  padding-left: 50px;
+  height: 30px;
+  width: 200px;
+  font-size: 1em;
+}
+
+.buttons {
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  transform: translate(-50%, 0%);
+}
+
+#button1, #button2 {
+  float: left;
+}
+
+#button2 {
+  background-color: #435159;
+  transition: background-color .5s;
+}
+
+#button2:hover {
+  background-color: #1ab188;
+}
+
+#button3 {
+  width: 400px;
+  height: 60px;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
