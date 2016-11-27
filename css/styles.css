@@ -2,14 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-image: url("../img/geometric4.jpg");
-}
-
-/*.container {
-  position: absolute;
-}*/
-
 p {
   text-align: center;
 }
@@ -90,60 +82,60 @@ a {
   /*outline-offset: 10px;*/
 }
 
+
 .advertisement img {
-  position: relative;
   width: 300px;
   height: 300px;
   border: 5px solid green;
 }
 
-.pedalName {
-  position: absolute;
-  z-index: 1;
-  top: 240px;
-  left: 170px;
-  /*margin-left: auto;
-  margin-right: auto;*/
-  color: black;
-  background-color: #bdc2c5;
-  width: 140px;
-}
+/*.advertisement {
+  position: relative;
+}*/
 
-h2 {
-  position: absolute;
+/*h2 {
+  top: 30px;
+  left: 230px;
   margin: 0;
   padding: 0;
   color: #008932;
-}
+}*/
 
 #column1 {
-  /*position: relative;
-  width: 300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: left;*/
   float: left;
   width: 50%;
   text-align: center;
   clear: left;
+  position: relative;
+  display: inline-block;
+}
+
+#column1 .advertisement {
+    text-align: center;
+    width:100%;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+    top: 5%;
+}
+
+img.resize {
+  /*display: block;*/
+  width: 300px;
+  height: 250px;
 }
 
 #column2 {
-  /*text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px;
-  background-color: white;
-  border-radius: 10px;
-  float: right;
-  margin-top: 60px;
-  */
   float: right;
   width: 50%;
   font-size: 20px;
   clear: right;
-  /*clear: both;*/
+}
+
+#column2 p {
+margin-left: auto;
+margin-right: auto;
+width: 300px;
 }
 
 #nav li{
