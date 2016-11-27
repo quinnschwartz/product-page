@@ -73,15 +73,15 @@ a {
 
 
 #photoGallery {
-  margin-right: auto;
-  margin-left: auto;
+  /*margin-right: auto;
+  margin-left: auto;*/
+  text-align: center;
 }
 
 #photoGallery img:hover {
   border: none;
   /*outline-offset: 10px;*/
 }
-
 
 .advertisement img {
   width: 300px;
