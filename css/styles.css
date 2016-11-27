@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+
 p {
   text-align: center;
 }
@@ -31,6 +32,11 @@ h5 {
   font-size: 20px;
   margin-bottom: 15px;
   margin-top: 70px;
+  font-weight: lighter;
+}
+
+.advertisement {
+    font-family: 'Press Start 2P', cursive;
 }
 
 input {
@@ -64,14 +70,6 @@ a {
   margin-bottom: 15px;
 }
 
-/*#nav li {
-  display: inline;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-}*/
-
-
 #photoGallery {
   /*margin-right: auto;
   margin-left: auto;*/
@@ -88,18 +86,6 @@ a {
   height: 300px;
   border: 5px solid green;
 }
-
-/*.advertisement {
-  position: relative;
-}*/
-
-/*h2 {
-  top: 30px;
-  left: 230px;
-  margin: 0;
-  padding: 0;
-  color: #008932;
-}*/
 
 #column1 {
   float: left;
@@ -138,27 +124,34 @@ margin-right: auto;
 width: 300px;
 }
 
-#nav li{
-  display: inline;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-  color: white;
-}
-
-li {
-  margin-bottom: 10px;
-}
-
-#nav {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100px;
-}
-
 p {
   max-width: 300px;
   background-color: white;
   padding: 10px;
   border-radius: 10px;
+}
+
+input {
+  border-radius: 3px;
+  height: 20px;
+  width: 300px;
+  padding: 15px;
+  font-size: 15px;
+}
+
+button[type="submit"] {
+  border-radius: 0;
+  text-decoration: none;
+  color: black;
+  width: 75px;
+  border: none;
+  background-color: white;
+  font-size: 15px;
+  height: 30px;
+  margin-top: 17px;
+}
+
+button[type="submit"]:hover {
+ background-color: green;
+ color: white;
 }
