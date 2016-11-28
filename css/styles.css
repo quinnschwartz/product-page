@@ -2,9 +2,15 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Orbitron', sans-serif;
+}
 
 p {
   text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 16px;
+  line-height: 110%;
 }
 
 p::first-Letter {
@@ -15,16 +21,18 @@ p::first-Letter {
 
 h1 {
   /*position: absolute;*/
-  font-size: 60pt;
+  font-size: 50pt;
+  font-weight: bold;
   text-align: center;
   color: black;
   background-color: white;
   /*display: block;*/
   margin-left: auto;
   margin-right: auto;
-  width: 150px;
+  width: 160px;
   border-radius: 10px;
   border: solid 10px green;
+  font-family: times;
 }
 
 h5 {
@@ -51,7 +59,7 @@ h3 {
   text-align: center;
   color: white;
   font-size: 30px;
-  margin-top: 490px;
+  margin-top: 520px;
 }
 
 img {
@@ -59,6 +67,7 @@ img {
   height: 150px;
   margin: 10px;
   border: 5px solid green;
+  max-width: 100%;
   /*float: left;*/
 }
 
@@ -91,18 +100,18 @@ a {
   float: left;
   width: 50%;
   text-align: center;
-  clear: left;
   position: relative;
-  display: inline-block;
+  margin: 0;
 }
 
 #column1 .advertisement {
     text-align: center;
-    width:100%;
+    width: 100%;
     font-size: 25px;
     color: black;
     position: absolute;
-    top: 5%;
+    top: 6%;
+    margin: 0;
 }
 
 img.resize {
@@ -115,20 +124,20 @@ img.resize {
   float: right;
   width: 50%;
   font-size: 20px;
-  clear: right;
+  margin: 0;
+  /*clear: right;*/
 }
 
 #column2 p {
-margin-left: auto;
-margin-right: auto;
-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
 }
 
 p {
-  max-width: 300px;
+  max-width: 100%;
   background-color: white;
   padding: 10px;
-  border-radius: 10px;
 }
 
 input {
